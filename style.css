@@ -1,0 +1,58 @@
+* {
+  font-family: "Reddit Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #161925;
+  color: white;
+}
+
+.container {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+.container button {
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.container .container-divs {
+  width: 600px;
+  height: 600px;
+  /* background-color: #23395b; */
+  border: 5px solid white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.square-active {
+  /* background-color: #c297b8; */
+  /* transition: 0.1s; */
+  background-color: #ff7477;
+}
